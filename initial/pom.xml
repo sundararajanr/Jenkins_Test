@@ -32,24 +32,9 @@
             </plugin>
 
 		<plugin>
-   <groupId>org.sonatype.plugins</groupId>
-   <artifactId>nexus-staging-maven-plugin</artifactId>
-   <version>1.5.1</version>
-   <executions>
-   </executions>
-   <configuration>
-      <serverId>nexus</serverId>
-      <nexusUrl>http://52.221.223.27:8081/nexus/</nexusUrl>
-      <skipStaging>true</skipStaging>
-   </configuration>
+   
 </plugin>
 
         </plugins>
     </build>
-<distributionManagement>
-  <repository>
-    <id>MSN</id>
-    <url>http://52.221.223.27:8081/nexus/content/repositories/MSN</url>
-  </repository>
-</distributionManagement>
 </project>
